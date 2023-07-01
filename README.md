@@ -1,6 +1,6 @@
 # jenkins-pipeline-practice
 
-## Run locally
+## Run Jenkins locally
 
 ```sh
 docker compose up -d
@@ -11,6 +11,14 @@ etc
 - stop
 - start
 - rm
+
+## DemoApp for test jenkins
+
+```sh
+./gradlew clean
+./gradlew bootJar
+./gradlew test
+```
 
 ## Links
 - https://github.com/jenkinsci/pipeline-examples
