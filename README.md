@@ -25,7 +25,9 @@ Add Credential to Jenkins
 ```sh
 ngrok http --domain={YOUR_DOMAIN}.ngrok-free.app 8080 
 ```
+Open endpoint with ngrok
 
+Fill "Configuration - GitHub Project" and check "Build Triggers - GitHub hook trigger for GITScm polling"
 
 ### Installed plugins
 - docker, docker pipeline
