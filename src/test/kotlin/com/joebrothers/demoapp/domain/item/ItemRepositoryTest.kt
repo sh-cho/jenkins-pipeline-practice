@@ -19,8 +19,8 @@ internal class ItemRepositoryTest {
         val lst = (1..9).toList()
 
         assertThrows(IndexOutOfBoundsException::class.java) {
-//            val a = lst[111]
-            val a = lst[1]
+            val a = lst[111]
+//            val a = lst[1]
         }
     }
 }
