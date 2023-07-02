@@ -5,6 +5,16 @@ pipeline {
     }
   }
 
+  parameters {
+    // https://plugins.jenkins.io/git-parameter/
+    gitParameter defaultValue: "main",
+      branchFilter: "origin/(.*)",
+      name: "BRANCH",
+      type: "PT_BRANCH",
+      description: "choose branch",
+      sortMode: "DESCENDING_SMART",
+      useRepository: "https://github.com/sh-cho/jenkins-pipeline-practice"
+  }
 
   stages {
     stage("Test") {
