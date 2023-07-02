@@ -29,6 +29,8 @@ Open endpoint with ngrok
 
 Fill "Configuration - GitHub Project" and check "Build Triggers - GitHub hook trigger for GITScm polling"
 
+To update GitHub commit status, check this out: https://stackoverflow.com/q/14274293/4295499
+
 ### Installed plugins
 - docker, docker pipeline
 - git parameter
